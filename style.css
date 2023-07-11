@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+    font-family: 'Ubuntu';
+    margin: 0;
+    text-align: center;
+    color: white;
+    background: #000;
+}
+
+.keys {
+    background-image: url("Be happy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.key {
+    width: 160px;
+    height: 160px;
+    float: left;
+    transition: all 0.07s;
+    border-radius: 5px;
+    background-color: rgb(88, 50, 88);
+    margin: 20px;
+}
+
+kbd button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: ;
+    padding-top: 30px;
+    cursor: pointer;
+    font-size: 60px;
+    
+}
+
+.playing {
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 568px) {
+    .key {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    kbd {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body{
+    font-family: 'Ubuntu';
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+
+.keys{
+    margin: 0 auto;
+    max-width: 600px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.key{
+    width: 160px;
+    height: 160px;
+    float: left;
+    transition: all 0.07s;
+    border-radius: 5px;
+    background-color: rgb(88, 50, 88);
+    margin: 20px;
+}
+
+kbd{
+    display: block;
+    padding-top: 30px;
+    font-size: 60px;
+    color: white;
+
+}
+
+.playing{
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+} */
